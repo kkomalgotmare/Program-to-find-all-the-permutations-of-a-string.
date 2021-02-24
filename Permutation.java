@@ -23,7 +23,6 @@ public class Permutation
       
       char ch[]=s1.toCharArray();// to convert string to array
       
-      
       int output=-1;
       int N=1;
       for(int i=0;i<n;i++)
@@ -70,9 +69,6 @@ public class Permutation
         ch=scan.next().charAt(0);
         }while(ch=='y'||ch=='Y');
       
-        
-        
-    }
+      }
             
-    
-}
+  }
