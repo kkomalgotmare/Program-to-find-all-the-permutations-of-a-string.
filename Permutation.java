@@ -19,7 +19,10 @@ public class Permutation
     
       int f=fact(n); //factorial of string
       
-      char ch[]=s.toCharArray();
+      String s1=s.toUpperCase();
+      
+      char ch[]=s1.toCharArray();// to convert string to array
+      
       
       int output=-1;
       int N=1;
